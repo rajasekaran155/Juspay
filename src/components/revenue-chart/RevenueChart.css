@@ -1,0 +1,25 @@
+.revenue-chart {
+  background-color: var(--orders-card-bg-color);
+  border-radius: 16px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.revenue-chart .revenue-chart-title {
+  font-weight: 600;
+}
+
+.revenue-chart .revenue-chart-divider {
+  height: 20px;
+  width: 1px;
+  background-color: var(--list-marker);
+}
+
+.revenue-chart .revenue-chart-bullet {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  display: block;
+}

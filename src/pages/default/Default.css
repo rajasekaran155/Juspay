@@ -1,0 +1,47 @@
+.default-layout .middle-content {
+  padding: 24px;
+  gap: 16px;
+}
+
+.default-layout .middle-content .card-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+}
+
+.default-layout .middle-content .section {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.default-layout .middle-content .section-2,
+.default-layout .middle-content .section-3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .default-layout .middle-content .revenue-chart img {
+    width: 300px;
+  }
+
+  .default-layout .middle-content .section {
+    gap: 16px;
+  }
+
+  .default-layout .middle-content .section-1,
+  .default-layout .middle-content .section-2,
+  .default-layout .middle-content .section-3 {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .default-layout .middle-content .section-2 .location-revenue {
+    margin-left: 0;
+  }
+
+  .default-layout .middle-content .section-3 .total-sales {
+    margin-left: 0;
+  }
+}

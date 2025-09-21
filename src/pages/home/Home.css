@@ -1,0 +1,111 @@
+.home {
+  display: grid;
+}
+
+.home .left-side-nav {
+  grid-column: 1 / 2;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px 16px;
+  border-right: 1px solid var(--page-border-color);
+}
+
+.home .left-side-nav .profile-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+}
+
+.home .left-side-nav .recent-section {
+  padding-bottom: 12px;
+}
+
+.home .left-side-nav .recent-section .recent-section-heading {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 4px 0;
+  color: var(--list-item-description-text-color);
+}
+
+.home .left-side-nav .recent-section .recent-section-items {
+  margin-left: 22px !important;
+}
+
+.home .left-side-nav .recent-section .recent-section-items li {
+  padding: 8px 0;
+}
+
+.home .left-side-nav .recent-section .recent-section-items li::marker {
+  color: var(--list-marker);
+}
+
+.home .main-content {
+  grid-column: 2 / 3;
+}
+
+.home .main-content .top-content {
+  display: flex;
+  padding: 20px 28px;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--page-border-color);
+}
+
+.home .main-content .top-content-section {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.home .main-content .top-content-section .input-wrapper {
+  background-color: var(--data-table-body-cell-border-color);
+  color: var(--list-marker);
+  padding: 4px 8px;
+  border-radius: 8px;
+  border: none;
+  height: 28px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.home .main-content .top-content-section input {
+  background-color: transparent;
+  border: none;
+  margin-left: 4px;
+}
+
+.home .right-side-nav {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-left: 1px solid var(--page-border-color);
+}
+
+.home .right-side-nav .list.Contacts .list-item {
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home .left-side-nav {
+    display: none;
+  }
+
+  .home .main-content .top-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .home .main-content .top-content-section .input-wrapper {
+    width: 100px;
+  }
+}

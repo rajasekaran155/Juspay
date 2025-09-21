@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+:root {
+  --primary-bg-color-100: rgb(255, 255, 255);
+  --primary-text-color-100: rgb(28, 28, 28);
+  --black: rgb(28, 28, 28);
+  --data-table-bg-color: rgba(247, 249, 251, 1);
+  --data-table-input-bg-color: rgba(255, 255, 255, 0.4);
+  --data-table-input-border-color: rgba(28, 28, 28, 0.2);
+  --data-table-body-cell-border-color: rgba(28, 28, 28, 0.05);
+  --data-table-pagination-active-bg-color: rgba(28, 28, 28, 0.05);
+  --list-item-description-text-color: rgba(28, 28, 28, 0.4);
+  --navigation-icon: rgba(28, 28, 28);
+  --page-border-color: rgba(28, 28, 28, 0.1);
+  --list-marker: rgba(28, 28, 28, 0.2);
+  --customer-card-bg-color: rgba(227, 245, 255, 1);
+  --orders-card-bg-color: rgba(247, 249, 251, 1);
+  --growth-card-bg-color: rgba(229, 236, 246, 1);
+  --current-week-bg-color: rgba(28, 28, 28, 1);
+  --previous-week-bg-color: rgba(168, 197, 218, 1);
+  --direct-sales: rgba(28, 28, 28, 1);
+  --affilliate-sales: rgba(186, 237, 189, 1);
+  --sponsored-sales: rgba(149, 164, 252, 1);
+  --email-sales: rgba(177, 227, 255, 1);
+}
+[data-theme="dark"] {
+  --primary-bg-color-100: rgb(28, 28, 28);
+  --primary-text-color-100: rgb(255, 255, 255);
+  --data-table-bg-color: rgba(255, 255, 255, 0.05);
+  --data-table-input-bg-color: rgba(28, 28, 28, 0.4);
+  --data-table-input-border-color: rgba(255, 255, 255, 0.1);
+  --data-table-body-cell-border-color: rgba(255, 255, 255, 0.05);
+  --data-table-pagination-active-bg-color: rgba(255, 255, 255, 0.1);
+  --list-item-description-text-color: rgba(255, 255, 255, 0.4);
+  --navigation-icon: rgba(255, 255, 255);
+  --page-border-color: rgba(255, 255, 255, 0.1);
+  --list-marker: rgba(255, 255, 255, 0.2);
+  --orders-card-bg-color: rgba(255, 255, 255, 0.05);
+  --growth-card-bg-color: rgba(229, 236, 246, 1);
+  --current-week-bg-color: rgba(198, 199, 248, 1);
+  --previous-week-bg-color: rgba(168, 197, 218, 1);
+  --direct-sales: rgba(198, 199, 248, 1);
+}
+body {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--primary-text-color-100);
+  background-color: var(--primary-bg-color-100);
+}
+p {
+  margin: 0px;
+}
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+input:focus {
+  outline: none;
+}
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+input[type="checkbox"] {
+  accent-color: var(--current-week-bg-color);
+}

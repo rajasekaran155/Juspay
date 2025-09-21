@@ -1,0 +1,37 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.list .list-name {
+  padding: 8px 4px;
+  margin: 0;
+}
+
+.list .list-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 4px;
+  gap: 8px;
+}
+
+.list .list-item-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.list .list-item-content-description {
+  color: var(--list-item-description-text-color);
+  font-size: 12px;
+}
+
+.list .list-item-content-title {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}

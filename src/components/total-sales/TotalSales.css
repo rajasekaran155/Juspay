@@ -1,0 +1,23 @@
+.total-sales {
+  background-color: var(--orders-card-bg-color);
+  padding: 24px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-left: 16px;
+  min-width: 200px;
+}
+
+.total-sales .total-sales-info {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  min-width: 80px;
+}
+
+.total-sales .total-sales-bullet {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+}

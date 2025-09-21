@@ -1,0 +1,24 @@
+.nav-items a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-items .item-content {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 12px;
+}
+
+.nav-items .item-content-active {
+  border-radius: 8px;
+}
+
+.nav-items .section-name {
+  margin: 0 !important;
+  padding: 4px 12px;
+  color: var(--list-item-description-text-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}

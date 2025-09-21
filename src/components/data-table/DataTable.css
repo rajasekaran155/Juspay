@@ -1,0 +1,81 @@
+.data-table .data-table-title {
+  font-weight: 600;
+}
+ 
+.data-table table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.data-table .table-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 8px;
+  margin: 16px 0 12px;
+  border-radius: 8px;
+  background-color: var(--data-table-bg-color);
+}
+
+.data-table .table-actions .table-action-section-1 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.data-table .table-actions .table-action-section-2 {
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
+  border: 1px solid var(--data-table-input-border-color);
+  border-radius: 8px;
+  background: var(--data-table-input-bg-color);
+}
+
+.data-table .table-actions .table-action-section-2 input {
+  border: none;
+  background-color: transparent;
+}
+
+.data-table .table-cell {
+  max-width: 220px;
+  min-height: 40px;
+  padding: 8px 12px;
+  font-size: 12px;
+}
+
+.data-table .table-cell-heading {
+  color: var(--list-item-description-text-color);
+  border-bottom: 1px solid var(--data-table-input-border-color);
+}
+
+.data-table .table-cell-body {
+  border-bottom: 1px solid var(--data-table-body-cell-border-color);
+}
+
+.data-table .table-cell-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.data-table .pagination {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+
+.data-table .pagination .pagination-btn {
+  padding: 4px 8px;
+  border: none;
+  background-color: transparent;
+  color: var(--primary-text-color-100);
+  cursor: pointer;
+}
+
+.data-table .pagination .pagination-btn.active {
+  border-radius: 8px;
+  background-color: var(--data-table-pagination-active-bg-color);
+}

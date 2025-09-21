@@ -1,0 +1,11 @@
+.bar-chart {
+  background-color: var(--data-table-bg-color);
+  padding: 6px;
+  border-radius: 16px;
+}
+
+.bar-chart .bar-chart-title {
+  font-weight: 600;
+  margin: 18px 0 16px;
+  color: var(--primary-text-color-100);
+}
